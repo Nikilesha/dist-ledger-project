@@ -1,0 +1,11 @@
+[
+  {"type":"function","name":"createPolicy","stateMutability":"payable","inputs":[{"name":"eventName","type":"string"},{"name":"policyType","type":"uint8"},{"name":"threshold","type":"uint256"},{"name":"payoutAmount","type":"uint256"}],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"submitOracleData","stateMutability":"nonpayable","inputs":[{"name":"policyId","type":"uint256"},{"name":"measuredValue","type":"uint256"}],"outputs":[]},
+  {"type":"function","name":"getPolicy","stateMutability":"view","inputs":[{"name":"policyId","type":"uint256"}],"outputs":[{"components":[{"name":"customer","type":"address"},{"name":"eventName","type":"string"},{"name":"policyType","type":"uint8"},{"name":"threshold","type":"uint256"},{"name":"payoutAmount","type":"uint256"},{"name":"premium","type":"uint256"},{"name":"verifiedValue","type":"uint256"},{"name":"reportsReceived","type":"uint256"},{"name":"status","type":"uint8"}],"type":"tuple"}]},
+  {"type":"function","name":"nextPolicyId","stateMutability":"view","inputs":[],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"vault","stateMutability":"view","inputs":[],"outputs":[{"type":"address"}]},
+  {"type":"function","name":"availableLiquidity","stateMutability":"view","inputs":[],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"deposit","stateMutability":"payable","inputs":[],"outputs":[]},
+  {"type":"event","name":"PolicyCreated","inputs":[{"indexed":true,"name":"policyId","type":"uint256"},{"indexed":true,"name":"customer","type":"address"},{"indexed":false,"name":"policyType","type":"uint8"},{"indexed":false,"name":"eventName","type":"string"},{"indexed":false,"name":"threshold","type":"uint256"},{"indexed":false,"name":"payout","type":"uint256"},{"indexed":false,"name":"premium","type":"uint256"}],"anonymous":false},
+  {"type":"event","name":"PolicyResolved","inputs":[{"indexed":true,"name":"policyId","type":"uint256"},{"indexed":false,"name":"verifiedValue","type":"uint256"},{"indexed":false,"name":"payoutMade","type":"bool"}],"anonymous":false}
+]

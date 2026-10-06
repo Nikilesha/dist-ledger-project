@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\nikil\\Documents\\Codex\\2026-09-09\\build-a-complete-working-college-level\\contracts\\LiquidityVault.sol": {
+      "lastModificationDate": 1788978265102,
+      "contentHash": "962fdd9627a9afab8f2e2b96bea52d12",
+      "sourceName": "contracts/LiquidityVault.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "LiquidityVault"
+      ]
+    },
+    "C:\\Users\\nikil\\Documents\\Codex\\2026-09-09\\build-a-complete-working-college-level\\contracts\\ParametricInsurance.sol": {
+      "lastModificationDate": 1788978265102,
+      "contentHash": "a2bf9e3ad49aed2dc12894d4cc61f775",
+      "sourceName": "contracts/ParametricInsurance.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "ILiquidityVault",
+        "ParametricInsurance"
+      ]
+    }
+  }
+}
